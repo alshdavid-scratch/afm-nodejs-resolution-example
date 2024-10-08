@@ -1,0 +1,13 @@
+{
+  "name": "@workspace/root",
+  "type": "module",
+  "scripts": {
+    "start": "cd ./packages/foo && npm run start"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "tsx": "*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@workspace/foo",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx --conditions @workspace:sources ./index.ts"
+  }
+}
